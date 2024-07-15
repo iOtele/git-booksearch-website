@@ -1,0 +1,27 @@
+.book-details{
+    padding: 6rem 0;
+}
+.back-btn{
+    margin-left: 20px;
+    margin-bottom: 2.6rem;
+    transition: var(--transition);
+}
+.back-btn:hover{
+    color: var(--purple-color);
+}
+.back-btn span{
+    margin-left: 1rem;
+}
+.book-details-content{
+    gap: 4rem;
+}
+.book-details-img{
+    max-height: 600px;
+    overflow: hidden;
+}
+.book-details-item{
+    margin-bottom: 1.4rem;
+}
+.book-details-item.description{
+    opacity: 0.8;
+}
